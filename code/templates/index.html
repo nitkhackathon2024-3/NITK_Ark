@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Price Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/static/script.js"></script>
+
+</head>
+<body>
+    <h1 style="color:black">REAL-TIME DASHBOARD FOR STOCK PERFORMANCE</h1>
+    <form id="add-ticker-form">
+        <input type="text" id="new-ticker" placeholder="Add Ticker" required>
+        <button type="submit">Add</button>
+    </form>
+    <p id="timer">Next update in <span id="counter"></span>  seconds.</p>
+    <div id="tickers-grid"></div>
+</body>
+</html>
